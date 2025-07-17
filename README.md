@@ -21,11 +21,13 @@ To solve the series of pain points with rosbridge, we developed cobridge based o
 - 🌐 Cloud-friendly: Comes with coStudio client, ready to use without building your own client, saving significant development time.
 - 🧠 URDF rendering support: Combined with coStudio and cloud platform, can directly render robot models, which rosbridge cannot accomplish.
 
-# User Guide:
-🚗 Vehicle-side Deployment Steps
-- All vehicle-side files are stored in the "/Car" directory of the compressed package. Before starting, copy this directory to the mainboard of your vehicle. All subsequent operations should be performed in the /Car directory.
-1. Ensure Python version ≥ 3.8 and install required dependencies:
-  
+# 🚗 Vehicle-side Deployment Steps
+All vehicle-side files are stored in the "/Car" directory of the compressed package. Before starting, copy this directory to the mainboard of your vehicle. All subsequent operations should be performed in the /Car directory.
+
+Before you proceed, ensure Python version ≥ 3.8 and install required dependencies:
+
+Start the control program:
+   
 
 ```
 📁 File Structure & Usage Flow

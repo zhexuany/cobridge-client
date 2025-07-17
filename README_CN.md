@@ -43,6 +43,7 @@ python3 cobridge_client.py
 车端所有文件都存放在压缩包的"/Pc"目录下，开始使用前，将此目录拷贝自己电脑上的目标路径，以下操作均在/Car 目录下操作。
 
 安装 Python ≥ 3.8，并安装依赖：
+
 ```
 pip3 install -r requirement-pc.txt
 ```
