@@ -58,9 +58,10 @@ BRIDGE_CLIENT/                 ← Root directory, contains all code for vehicle
 └── README.md                 ← Project documentation, covers background, deployment methods and usage guide
 ```
 
-Final Notes:
+# Final Notes:
 A more standardized approach to node management and information publishing will help everyone develop better coding practices!
-- Instead of "hardcoding" maps and control logic in Windows, we recommend:
-  - Using ROS native OccupancyGrid type for map publishing (see publish_map() function).
+
+Instead of "hardcoding" maps and control logic in Windows, we recommend:
+  - Using ROS native `OccupancyGrid` type for map publishing (see `publish_map()` function).
   - Implementing QoS configurations to ensure communication reliability.
   - Utilizing the control-side "signal mechanism" and "speed adjustment features" for more precise driving tests.
