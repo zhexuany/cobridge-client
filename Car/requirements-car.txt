@@ -1,0 +1,4 @@
+rclpy
+opencv-python
+PyYAML
+cv_bridge
