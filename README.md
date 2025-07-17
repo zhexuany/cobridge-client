@@ -27,7 +27,17 @@ All vehicle-side files are stored in the "/Car" directory of the compressed pack
 Before you proceed, ensure Python version ≥ 3.8 and install required dependencies:
 
 Start the control program:
-   
+```
+python3 control.py
+```
+
+Launch successful, you will see the following output in the terminal: 
+![Terminal Ouput](./images/image_2.png)
+
+Open coStudio, connect to the car, and use the keyboard to control the car.
+
+![coStudio](./images/image.png)
+     
 
 ```
 📁 File Structure & Usage Flow
